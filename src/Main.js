@@ -7,12 +7,14 @@ import { Container } from "react-bootstrap";
 
 const Main = () => {
   return (
-    <Container>
-      <Header />
-      <Bar />
-      <Catalog />
+    <div className="main">
+      <Container>
+        <Header />
+        <Bar />
+        <Catalog />
+      </Container>
       <Footer />
-    </Container>
+    </div>
   );
 };
 
